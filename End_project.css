@@ -1,0 +1,325 @@
+/* Styles for screens smaller than 600px (typical mobile devices) */
+/* @media (max-width: 600px) {
+    /* Your styles here 
+   
+  }*/
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  @media screen and (max-width: 1200px){
+  .main-container {
+      width: 90%;
+  }
+}
+/* #logo_navAndhero{
+  border-color: black;
+  width: 100%;
+  animation: changeColor 3s infinite alternate;
+
+}
+@keyframes changeColor {
+  40% { background-color: white; }
+  60% { background-color: black; }
+} */
+
+#logo_navAndhero {
+  border-color: black;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and borders in the total width and height */
+  
+}
+
+
+
+/* Apply mobile-friendly styles using media queries */
+@media (max-width: 768px) {
+  #logo_navAndhero {
+    /* Adjust styles for smaller screens */
+    width: 100%; /* You can customize this as needed */
+  }
+}
+
+.main-container{
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-right: 12em;
+  padding-left: 12em;
+}
+  #hero{
+    display: grid;
+    font-size: 8rem;
+    font-weight: 700;
+    height: 720px;
+    align-items: center;
+  }
+  .l{
+    display: flex;
+    /*position: fixed; --> Supaya componenet tidak bergerak*/
+    justify-content: space-between;
+    padding-top: 0rem;
+    padding-right: 0px;
+    padding-bottom: 2rem;
+    padding-left: 0px;
+  }
+   .logo{
+     
+    float: left;
+    color: black;
+    font-weight:bold;
+    font-size: 24px;
+    font-family: serif;
+  }
+  #nav{
+    width: 85em;
+  }
+  #a{
+    font-size: 5rem;
+  }
+  .nav-link{
+    margin-right: 1.5em;
+  }
+ #name{
+   display: flex;
+   margin-top: 0px;
+   margin-right: auto;
+   margin-bottom: 0em;
+   margin-left: auto;
+   padding-right: 12em;
+   padding-left: 12em;
+   align-items: center;
+ }
+#image{
+  margin-left: 1.2em;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+
+}
+#image:hover {
+  transform: rotate(360deg);
+}
+#b{
+  font-size: 1rem;
+  font-weight: normal;
+}
+#c{
+  font-weight: bold;
+  color: blue;
+}
+#d{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+#About_me{
+  display: flex;
+  justify-content: center;
+ 
+}
+.main-container2{
+  margin-top: 12.6em;
+  margin-right: auto;
+  margin-bottom: 12.6em;
+  margin-left: auto;
+  
+}
+/* @media only screen and (max-width: 600px) {
+  table {
+      width: 100%;
+      /* Add any other styles for smaller screens 
+  }
+} */
+#Education_Skils{
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-right: 7em;
+  padding-left: 7em;
+  padding-top: 7em;
+  align-items: center;
+}
+#title{
+  margin-bottom: 2.5em;
+}
+
+#title2{
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
+}
+#aa{
+  margin-left: 1em;
+}
+#image3{
+  margin-left: 3.8em;
+}
+#image4{
+  margin-left:  2.2em; 
+}
+#image5{
+  margin-left: 2.7em;
+}
+#image6{
+  margin-left: 0.296em;
+}
+#image7{
+  margin-left:  2.2em;
+}
+.main-container3{
+  margin-top: 12.6em;
+  margin-right: auto;
+  margin-bottom: 12.6em;
+  margin-left: 3.5em;
+  padding-top: 3.5em;
+  
+}
+#carouselExample{
+  margin-right: 10em;
+  margin-left: 10em;
+  height: 6.25em;
+}
+
+
+.certificate-card {
+  border: 0.0625em solid #ddd;
+  border-radius: 0.5em;
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+}
+
+.certificate-card img {
+  width: 100%;
+  max-height: 20.4em;
+  object-fit: cover;
+  border-radius: 0.5em;
+}
+
+.certificate-card h3 {
+  margin: 20px 0 0;
+}
+#pic{
+  height: 12em;
+  width: 20em;
+}
+#em{
+  margin-bottom: 1.5em;
+}
+#pic2{
+  height: 16em;
+  width: 24em;
+}
+#certificate {
+  padding: 1.5em;
+  margin-top: 2.5em;
+}
+#project {
+  padding: 1.5em;
+  margin-top: 2.5em;
+}
+#a:hover{
+  color: blue;/* Mengubah warna teks saat dihover */
+   cursor: pointer; /* Mengubah ikon kursor menjadi tanda tangan untuk menunjukkan elemen dapat diinteraksi */
+}
+#c{
+  animation: fadeIn 3s ease-in-out infinite alternate;
+
+}
+@keyframes fadeIn {
+  0%, 100% {
+     opacity: 0.2;
+  }
+  50% {
+     opacity: 1;
+  }
+}
+#main-container4{
+  margin-top: 15.6em;
+  margin-right: auto;
+  margin-bottom: 12.6em;
+  margin-left: 3.5em;
+  padding-top: 7.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+#form{
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+#f{
+  display: flex;
+  flex-direction: column
+}
+#a1{
+   display:flex;
+   flex-direction: row;
+   margin-bottom: 2em;
+}
+#name1{
+  margin-left: 8em;
+  width: 20em;
+}
+#a2{
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+#email{
+  margin-left: 8.2em;
+  width: 20em;
+}
+#a3{
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+#phone{
+  margin-left: 3.8em;
+  width: 28em;
+}
+#a4{
+  display: flex;
+  flex-direction: column;
+}
+#Message{
+  width: 32em;
+  margin-top: 0.1em;
+}
+.contact-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+#f2{
+  margin-left: 15rem;
+  margin-bottom: 12rem;
+  
+}
+#s{
+  margin-top: 1em;
+  width: 20em;
+}
+.alert{
+  width: 100%;
+  background: rgb(11, 222, 102);
+  padding: 0.625em 1.25em;
+  border-radius: 0.3125em;
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: 900;
+  display: none;
+}

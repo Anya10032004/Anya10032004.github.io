@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="My End Project">
+        <meta name="keywords" content="Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+
+        <title>End_project</title>
+        <!--CSS-->
+        <link href='./End_project.css' rel='stylesheet'>
+        <!--CSS_Boostrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!--JS_Boostrap for nonstatic features from  boostrap  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+          function toggleDetails(detailsId) {
+            var details = document.getElementById(detailsId);
+            details.style.display = details.style.display === 'none' ? 'block' : 'none';
+          }
+        </script>
+        <script>
+          // function validateForm() {
+          // //   // Validation for the email input
+          // //   var emailInput = document.getElementById("email");
+          // //   if (!emailInput.checkValidity()) {
+          // //     alert("Please enter a valid email address.");
+          // //     return false;
+          // //   }
+        
+          // //   // Validation for the phone number input
+          // //   var phoneInput = document.getElementById("phone");
+          // //   if (!phoneInput.checkValidity()) {
+          // //     alert("Please enter a valid phone number starting with '08' and not exceeding 14 digits.");
+          // //     return false;
+          // //   }
+        
+          // //   // Additional validation for the message input
+          // //   var messageInput = document.getElementById("Message");
+          // //   var wordCount = messageInput.value.trim().split(/\s+/).length;
+          // //   if (wordCount < 5 || wordCount > 100) {
+          // //     alert("Please enter a message with 5 to 100 words.");
+          // //     return false;
+          // //   }
+        
+          // //   return true; // Submit the form if all validations pass
+          // // }
+          
+        </script>
+
+        
+    </head>
+    <body>
+       <!-- Home  -->
+         <header id="logo_navAndhero">
+           <div class ="main-container">
+            <div id ="logo_nav" class="l">
+              <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+                <div class="container-fluid" id="cd">
+                  <div> <a class="navbar-brand" href="#"> <b> ANYA </b></a> </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style='background-color: black;'>
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                      <a class="nav-link" href="#About_me">About me </a>
+                      <a class="nav-link" href="#Portfolio">Portfolio</a>
+                      <a class="nav-link" href="#Contact_Us">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <section id="hero">
+              <h1 id ="a">
+                Hi Everyone, <br>
+               <span> Welcome to My Portfolio </span>
+            </h1>
+            </section>
+          </div>
+         </header>
+       <!-- About me -->
+        <section id ="About_me">
+         <div class ="main-container2">
+          <section id="name">
+            <section id="text">
+              <h1 id="b"> --MY NAME IS </h1>
+              <h2 id="c"> Sefanya Putri Novira</h2>
+              <p>
+                I'm a student in one of the most prestigious private university in Indonesia major Computer Science. 
+                <br/> Although I am in my first year, 
+                I have already developed proficiency in several skills which i will explain later. 
+                <br/> 
+              </p>
+            </section>
+             <section id="image">
+               <img src ='./images/image.jpg'  height = 400 width = 300 alt = '' id = 'image'/> 
+              </section>
+           </section>
+          <section id="Education_Skils">
+              <!-- Untuk edukasi dan skill, kita ambil dari webpage sebelumnhya saja, karena pakai boostrap, jadi nati saja-->
+               <section id="title"> 
+                 <h2 id="d">Education</h2> 
+               </section>
+               <section id="Education_Table">
+                 <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Tahun</th>
+                    <th scope="col">Jenjang Pendidikan</th>
+                    <th scope="col">Institusi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2010-2016</td>
+                    <td>Sekolah Dasar(SD)</td>
+                    <td>Cendana</td>
+                  </tr>
+                  <tr>
+                    <td>2016-2019</td>
+                    <td>Sekolah Menengah Pertama(SMP)</td>
+                    <td>Cendana</tr>
+                  </tr>
+                  <tr>
+                    <td> 2019-2022 </td>
+                    <td>Sekolah Menengah Atas(SMA)</td>
+                    <td>Cendana</td>
+                  </tr>
+                  <tr>
+                    <td> 09 April-12 Juni 2022 </td>
+                    <td>Bootcamp</td>
+                    <td>Myskill</td>
+                  </tr>
+                </tbody>
+                 </table>
+               </section>
+
+               <section id="title2"> 
+                  <h2 id="d">Skill</h2> 
+               </section>
+               <section id="Skills">
+                  <p>I start to learn to code when i was 14 year old, i've also done some projects too, that i will show you later. 
+                     These are the skills that i can do that relates to it</p> <br>
+                     <ul id="aa">
+                      <li> Python  <img src ='./images/image2.png'  height = 20 width = 32 alt = '' id = 'image'/> </li>
+                      <li >C       <img src ='./images/image3.png'  height = 20 width = 28 alt = '' id = 'image3'/> </li>
+                      <li> Html    <img src ='./images/image4.png'  height = 20 width = 28 alt = '' id = 'image4'/> </li>
+                      <li> CSS     <img src ='./images/image5.png'  height = 20 width = 28 alt = '' id = 'image5'/> </li>
+                      <li> Javascript <img src ='./images/image6.png'  height = 20 width = 28 alt = '' id = 'image6'/> </li>
+                      <li> React <img src ='./images/image7.png'  height = 20 width = 28 alt = '' id = 'image7'/> </li>
+                    </li>
+                   </ul>
+                  
+               </section>
+            </section>
+          </div>
+        </section>
+       <!-- Portfolio -->
+       <section id ="Portfolio">
+           <!-- Untuk certificate dan project, kita ambil dari webpage sebelumnhya saja, karena pakai boostrap, jadi nati saja-->
+           <div class ="main-container3">  
+            <section id="certificate">
+              <h2 id="em">Certificates</h2>
+              <div class="certificate-card">
+                <img src="./images/DS.jpg" alt="Certificate 1" id="pic">
+                <h3>Data Science Certificate Course</h3>
+                <p>Issued by Programing Hub</p>
+              </div>
+              <div class="certificate-card">
+                <img src="./images/Py.jpg" alt="Certificate 2" id="pic">
+                <h3>Python 3 Certificate Course</h3>
+                <p>Issued by Programing Hub</p>
+              </div>
+              <div class="certificate-card">
+                <img src="./images/SIS.jpg" alt="Certificate 2" id="pic">
+                <h3>School Of Information Systems Virtual Summer School 2021</h3>
+                <p>Issued by Bina Nusantara university</p>
+              </div>
+              <div class="certificate-card">
+                <img src="./images/posi.jpg" alt="Certificate 2" id="pic2">
+                <h3>Indonesia Olympiad Of Numeracy(ION)</h3>
+                <p>Issued by POSI</p>
+              </div>
+               </section>
+               <section id="project">
+                <section id="certificate2">
+                  <h2 id="em">Projects</h2>
+                  <div class="certificate-card" onclick="toggleDetails('house-details')">
+                    <img src="./images/house.jpg" alt="Certificate 1" id="pic">
+                    <h3>House Price Prediction</h3>
+                    <div id="house-details" class="project-details" style="display: none;">
+                      <p>Characteristic: Supervised Learning, Regression, linear regression</p>
+                      <p>Accuracy(by linear regression algorithm): 0.91</p>
+                    </div>
+                  </div>
+                  <div class="certificate-card" onclick="toggleDetails('titanic-details')">
+                    <img src="./images/titanic.png" alt="Certificate 2" id="pic">
+                    <h3>Titanic Survivor Disaster</h3>
+                    <div id="titanic-details" class="project-details" style="display: none;">
+                      <p>Characteristic: Supervised Learning, Classification, Logistic regression</p>
+                      <p>Accuracy(by Logistic regression algorithm): 0.768</p>
+                    </div>
+                  </div>
+                </section>
+              </section>
+              
+           </div>
+        </section>
+       </section>
+       <!--  Contact Us -->
+       <section id ="Contact_Us">
+        <section id ="main-container4">
+          <section id="title"> 
+            <h2 id="em">Contact Me</h2> 
+          </section>
+          <section id="form"> 
+            <form id="f" onsubmit="return validateForm()">
+              <div class="alert"> Your message sent</div>
+              <section id="a1">
+                <label for="name1">Name:</label>
+                <input type="text" id="name1" name="name" required>
+              </section>
+              <section id="a2">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+              </section>
+              <section id="a3">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="   Dua digit pertama harus '08' dan tidak lebih dari 14 digit" pattern="^08\d{10,12}$">
+              </section>
+              <section id="a4">
+                <label for="Message">Message:</label>
+                <br> <br>
+                <textarea type="text" id="Message" rows="6" name="Message" required minlength="100" maxlength="2000"></textarea>
+              </section>
+              <button type="submit" id="s">Submit</button>
+            </form>
+            <section id="f2">
+              <div class="contact-right">
+                <div class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                      <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"></path>
+                    </svg>
+                  </div>
+                  <div class="contact-item-detail">
+                    <h4>Phone</h4>
+                    <p>(501) 414-1541</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                      <path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"></path>
+                    </svg>
+                  </div>
+                  <div class="contact-item-detail">
+                    <h4>Email</h4>
+                    <p>sefanyayoyo@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+               
+            
+          </section>
+      </section>
+       </section>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+       <script src="./contact.js"></script>
+    </body>
+</html>
